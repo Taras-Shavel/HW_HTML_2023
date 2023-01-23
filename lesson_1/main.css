@@ -1,0 +1,27 @@
+img {
+    width: 256px;
+}
+h1{
+    background: aquamarine;
+    color: rgb(21, 21, 130);
+}
+a{
+    background: silver;
+    color:darkgreen;
+}
+p{
+    background: bisque;
+    color: red;
+}
+.homer{
+    background: antiquewhite;
+    color: chartreuse;
+}
+.bart{
+    background: aqua;
+    color: cadetblue;
+}
+.lisa{
+    background: rgb(121, 82, 82);
+    color: darkblue;
+}
