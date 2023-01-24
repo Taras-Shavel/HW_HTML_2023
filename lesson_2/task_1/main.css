@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 600px;
+    height: 100vh;
+    background: silver;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.wighest {
+    width: 100%;
+    height: 30%;
+    background: aquamarine;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_block {
+    width: 100%;
+    height: 20%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-sizing: border-box;
+
+}
+
+.contact {
+    width: 100%;
+    height: 45%;
+    background: cornflowerblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wighest, .main_block, .contact {
+    color: crimson;
+    font-size: 22px;
+
+}
+
+.block {
+    width: 30%;
+    height: 100%;
+    background: skyblue;
+}
+
+.big_wighest, .bigger_wighest, .huge_wighest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
