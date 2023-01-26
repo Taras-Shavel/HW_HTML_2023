@@ -1,0 +1,72 @@
+.main_block {
+    width: 700px;
+    height: 500px;
+    background: gainsboro;
+    margin: auto;
+}
+
+.first_block {
+    width: 100%;
+    height: 15%;
+    display: flex;
+}
+
+.second_block {
+    width: 100%;
+    height: 60%;
+    background: #1b1f45;
+}
+
+.third_block {
+    width: 100%;
+    height: 25%;
+
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: cornflowerblue;
+    position: relative;
+    top: -50px;
+    border-radius: 10px;
+}
+
+.bloc {
+    width: 50%;
+    height: 100%;
+}
+
+.one_mini_block {
+    width: 100px;
+    height: 50%;
+    background: #1b1f45;
+    margin-left: 60px;
+    margin-top: 18px;
+    border-radius: 5px;
+}
+
+.two_mini_block {
+    width: 100px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    column-gap: 15px;
+    box-sizing: border-box;
+    padding-right: 10px;
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+.two_block {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    box-sizing: border-box;
+    padding-right: 60px;
+}
